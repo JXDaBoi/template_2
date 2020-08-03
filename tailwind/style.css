@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-box {
+  @apply col-span-1 row-span-1;
+}
