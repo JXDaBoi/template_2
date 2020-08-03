@@ -14,24 +14,26 @@
     </div>
     
     <!-- Grid Container -->
-    <div class="text-white grid grid-cols-2 grid-rows-2">
+    <div class="text-white lg:grid lg:grid-cols-2 lg:grid-rows-2">
       <!-- Main container -->
-      <div class="pt-20 grid-box grid grid-cols-2 grid-rows-1 overflow-auto row-start-1 row-end-2 col-start-1 col-end-2" style="height: fit-content;">
-        <div class="inline-block">
-          <img src="../pic/pic.jpg" class="p-4"></img>
+      <div class="pt-20 grid-box md:grid grid-cols-2 grid-rows-1 overflow-auto row-start-1 row-end-2 col-start-1 col-end-2" style="height: fit-content;">
+        <!-- Picture -->
+        <div class="inline-block p-4 md:pl-4">
+          <img src="../pic/pic.jpg"></img>
         </div>
-        <div class="flex flex-col text-3xl pl-24 pt-12">
+        <!-- 大概简介 -->
+        <div class="flex flex-col text-3xl pl-10 pt-12">
           <span class="underline font-bold">Name</span>
-          <span>JXDaBoi</span>
+          <span class="text-2xl">JXDaBoi</span>
           <span class="underline font-bold">Age</span>
-          <span>19</span>
+          <span class="text-2xl">19</span>
           <span class="underline font-bold">Email</span>
-          <span>jingxiangdaboi@gmail.com</span>
+          <span class="text-2xl">jingxiangdaboi@gmail.com</span>
         </div>
       </div>
 
       <!-- Video container -->
-      <div class="grid-box" style="height: fit-content;">
+      <div class="grid-box pt-4 lg:pt-0" style="height: fit-content;">
         <video src="../pic/hmm.mp4" autoplay muted controls></video>
       </div>
         
